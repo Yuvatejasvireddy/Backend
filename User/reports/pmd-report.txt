@@ -1,0 +1,188 @@
+src/main/java/com/teju/SwaggerConfig.java:11:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/teju/SwaggerConfig.java:11:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/teju/SwaggerConfig.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/teju/UserApplication.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/teju/UserApplication.java:7:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/com/teju/UserApplication.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/teju/UserApplication.java:9:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/teju/config/ApplicationConfiguration.java:23:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/teju/config/ApplicationConfiguration.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/teju/config/ApplicationConfiguration.java:26:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on method 'securityFilterChain(HttpSecurity)'
+src/main/java/com/teju/config/ApplicationConfiguration.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'http' is not assigned and could be declared final
+src/main/java/com/teju/config/ApplicationConfiguration.java:26:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/teju/config/ApplicationConfiguration.java:29:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The lambda parameter name 'Authorize' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/teju/config/ApplicationConfiguration.java:49:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'cfg' could be declared final
+src/main/java/com/teju/config/ApplicationConfiguration.java:66:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on method 'passwordEncoder()'
+src/main/java/com/teju/config/JwtConstant.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/teju/config/JwtConstant.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/teju/config/JwtConstant.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/teju/config/JwtProvider.java:17:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/teju/config/JwtProvider.java:17:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/com/teju/config/JwtProvider.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/teju/config/JwtProvider.java:24:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/teju/config/JwtProvider.java:25:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/teju/config/JwtProvider.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'auth' is not assigned and could be declared final
+src/main/java/com/teju/config/JwtProvider.java:26:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'authorities' could be declared final
+src/main/java/com/teju/config/JwtProvider.java:27:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'roles' could be declared final
+src/main/java/com/teju/config/JwtProvider.java:29:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'jwt' could be declared final
+src/main/java/com/teju/config/JwtProvider.java:29:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'jwt'
+src/main/java/com/teju/config/JwtProvider.java:31:	UseUnderscoresInNumericLiterals:	UseUnderscoresInNumericLiterals: Number 86400000 should separate every third digit with an underscore
+src/main/java/com/teju/config/JwtProvider.java:40:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/teju/config/JwtProvider.java:43:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'jwt'
+src/main/java/com/teju/config/JwtProvider.java:45:	LawOfDemeter:	LawOfDemeter: Call to `getBody` on foreign value `Jwts.parserBuilder().setSigningKey(key).build().parseClaimsJws(jwt)` (degree 1)
+src/main/java/com/teju/config/JwtProvider.java:45:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'claims' could be declared final
+src/main/java/com/teju/config/JwtProvider.java:46:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'email' could be declared final
+src/main/java/com/teju/config/JwtProvider.java:47:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/com/teju/config/JwtProvider.java:52:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/teju/config/JwtProvider.java:52:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'collection' is not assigned and could be declared final
+src/main/java/com/teju/config/JwtProvider.java:53:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'auths' could be declared final
+src/main/java/com/teju/config/JwtProvider.java:55:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'authority' could be declared final
+src/main/java/com/teju/config/JwtTokenValidator.java:20:	UnnecessaryImport:	UnnecessaryImport: Unused import 'jakarta.servlet.Filter'
+src/main/java/com/teju/config/JwtTokenValidator.java:23:	UnnecessaryImport:	UnnecessaryImport: Unused import 'jakarta.servlet.ServletRequest'
+src/main/java/com/teju/config/JwtTokenValidator.java:24:	UnnecessaryImport:	UnnecessaryImport: Unused import 'jakarta.servlet.ServletResponse'
+src/main/java/com/teju/config/JwtTokenValidator.java:28:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/teju/config/JwtTokenValidator.java:28:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/teju/config/JwtTokenValidator.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'filterChain' is not assigned and could be declared final
+src/main/java/com/teju/config/JwtTokenValidator.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/com/teju/config/JwtTokenValidator.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'response' is not assigned and could be declared final
+src/main/java/com/teju/config/JwtTokenValidator.java:41:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'key' could be declared final
+src/main/java/com/teju/config/JwtTokenValidator.java:43:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/teju/config/JwtTokenValidator.java:44:	LawOfDemeter:	LawOfDemeter: Call to `getBody` on foreign value `Jwts.parserBuilder().setSigningKey(key).build().parseClaimsJws(jwt)` (degree 1)
+src/main/java/com/teju/config/JwtTokenValidator.java:44:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'claims' could be declared final
+src/main/java/com/teju/config/JwtTokenValidator.java:46:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'email' could be declared final
+src/main/java/com/teju/config/JwtTokenValidator.java:48:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'authorities' could be declared final
+src/main/java/com/teju/config/JwtTokenValidator.java:50:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/com/teju/config/JwtTokenValidator.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'auths' could be declared final
+src/main/java/com/teju/config/JwtTokenValidator.java:53:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'athentication' could be declared final
+src/main/java/com/teju/config/JwtTokenValidator.java:57:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/teju/config/JwtTokenValidator.java:58:	PreserveStackTrace:	PreserveStackTrace: Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+src/main/java/com/teju/controller/AuthController.java:31:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/teju/controller/AuthController.java:31:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/teju/controller/AuthController.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/teju/controller/AuthController.java:34:	ShortVariable:	ShortVariable: Avoid variables with short names like ur
+src/main/java/com/teju/controller/AuthController.java:36:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/teju/controller/AuthController.java:39:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/teju/controller/AuthController.java:48:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/teju/controller/AuthController.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/com/teju/controller/AuthController.java:50:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'email' could be declared final
+src/main/java/com/teju/controller/AuthController.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'password' could be declared final
+src/main/java/com/teju/controller/AuthController.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fullName' could be declared final
+src/main/java/com/teju/controller/AuthController.java:53:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'role' could be declared final
+src/main/java/com/teju/controller/AuthController.java:55:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The variable 'isEmailExist' indicates linguistically it is a boolean, but it is 'User'
+src/main/java/com/teju/controller/AuthController.java:55:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'isEmailExist' could be declared final
+src/main/java/com/teju/controller/AuthController.java:64:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'n' could be declared final
+src/main/java/com/teju/controller/AuthController.java:64:	ShortVariable:	ShortVariable: Avoid variables with short names like n
+src/main/java/com/teju/controller/AuthController.java:70:	ShortVariable:	ShortVariable: Avoid variables with short names like s
+src/main/java/com/teju/controller/AuthController.java:70:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 's'.
+src/main/java/com/teju/controller/AuthController.java:74:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'authentication' could be declared final
+src/main/java/com/teju/controller/AuthController.java:77:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'token' could be declared final
+src/main/java/com/teju/controller/AuthController.java:80:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/teju/controller/AuthController.java:81:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'au' could be declared final
+src/main/java/com/teju/controller/AuthController.java:81:	ShortVariable:	ShortVariable: Avoid variables with short names like au
+src/main/java/com/teju/controller/AuthController.java:86:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ResponseEntity<>(au,HttpStatus.OK)`
+src/main/java/com/teju/controller/AuthController.java:91:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/teju/controller/AuthController.java:91:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'lr' is not assigned and could be declared final
+src/main/java/com/teju/controller/AuthController.java:91:	ShortVariable:	ShortVariable: Avoid variables with short names like lr
+src/main/java/com/teju/controller/AuthController.java:93:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'username' could be declared final
+src/main/java/com/teju/controller/AuthController.java:94:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'password' could be declared final
+src/main/java/com/teju/controller/AuthController.java:95:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/com/teju/controller/AuthController.java:96:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'authentication' could be declared final
+src/main/java/com/teju/controller/AuthController.java:99:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ar' could be declared final
+src/main/java/com/teju/controller/AuthController.java:99:	ShortVariable:	ShortVariable: Avoid variables with short names like ar
+src/main/java/com/teju/controller/AuthController.java:100:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'token' could be declared final
+src/main/java/com/teju/controller/AuthController.java:106:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ResponseEntity<>(ar,HttpStatus.OK)`
+src/main/java/com/teju/controller/AuthController.java:113:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/com/teju/controller/AuthController.java:113:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/main/java/com/teju/controller/AuthController.java:115:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ud' could be declared final
+src/main/java/com/teju/controller/AuthController.java:115:	ShortVariable:	ShortVariable: Avoid variables with short names like ud
+src/main/java/com/teju/controller/AuthController.java:116:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/com/teju/controller/UserController.java:16:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/teju/controller/UserController.java:16:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/teju/controller/UserController.java:20:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'use'
+src/main/java/com/teju/controller/UserController.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/teju/controller/UserController.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/teju/controller/UserController.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'jwt' is not assigned and could be declared final
+src/main/java/com/teju/controller/UserController.java:26:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/com/teju/controller/UserController.java:27:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'u' could be declared final
+src/main/java/com/teju/controller/UserController.java:27:	ShortVariable:	ShortVariable: Avoid variables with short names like u
+src/main/java/com/teju/exceptions/UserException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/teju/exceptions/UserException.java:3:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/teju/exceptions/UserException.java:5:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/teju/exceptions/UserException.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/teju/model/User.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/teju/model/User.java:12:	DataClass:	DataClass: The class 'User' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=12)
+src/main/java/com/teju/model/User.java:12:	ShortClassName:	ShortClassName: Avoid short class names like User
+src/main/java/com/teju/model/User.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/teju/model/User.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/teju/model/User.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'fullname' is not assigned and could be declared final
+src/main/java/com/teju/model/User.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/teju/model/User.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/com/teju/model/User.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'role' is not assigned and could be declared final
+src/main/java/com/teju/model/User.java:13:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/teju/model/User.java:21:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/teju/model/User.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/teju/model/User.java:27:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/teju/model/User.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/com/teju/model/User.java:39:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/teju/model/User.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'role' is not assigned and could be declared final
+src/main/java/com/teju/model/User.java:51:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'fullname' is not assigned and could be declared final
+src/main/java/com/teju/model/User.java:56:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/teju/model/User.java:56:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/teju/model/User.java:56:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/teju/model/User.java:57:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/teju/model/User.java:57:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/teju/model/User.java:58:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/teju/model/User.java:58:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/teju/model/User.java:59:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/teju/model/User.java:59:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/teju/model/User.java:60:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/teju/model/User.java:60:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/teju/repository/UserRepository.java:10:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/teju/repository/UserRepository.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/teju/repository/UserRepository.java:14:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'findbyEmail': the method is declared in an interface type
+src/main/java/com/teju/request/LoginRequest.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/teju/request/LoginRequest.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/teju/request/LoginRequest.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/teju/request/LoginRequest.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/teju/request/LoginRequest.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/teju/request/LoginRequest.java:12:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/com/teju/request/LoginRequest.java:12:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/main/java/com/teju/response/AuthResponse.java:4:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/teju/response/AuthResponse.java:4:	DataClass:	DataClass: The class 'AuthResponse' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=8)
+src/main/java/com/teju/response/AuthResponse.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/teju/response/AuthResponse.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/teju/response/AuthResponse.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/teju/response/AuthResponse.java:12:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'jwt' is not assigned and could be declared final
+src/main/java/com/teju/response/AuthResponse.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'messgae' is not assigned and could be declared final
+src/main/java/com/teju/response/AuthResponse.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/teju/response/AuthResponse.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/teju/response/AuthResponse.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'jwt' is not assigned and could be declared final
+src/main/java/com/teju/response/AuthResponse.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'messgae' is not assigned and could be declared final
+src/main/java/com/teju/response/AuthResponse.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'status' is not assigned and could be declared final
+src/main/java/com/teju/response/AuthResponse.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'b' is not assigned and could be declared final
+src/main/java/com/teju/response/AuthResponse.java:33:	ShortVariable:	ShortVariable: Avoid variables with short names like b
+src/main/java/com/teju/service/CustomUserServiceImplementation.java:18:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/teju/service/CustomUserServiceImplementation.java:18:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/teju/service/CustomUserServiceImplementation.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/teju/service/CustomUserServiceImplementation.java:21:	ShortVariable:	ShortVariable: Avoid variables with short names like ur
+src/main/java/com/teju/service/CustomUserServiceImplementation.java:24:	AvoidUncheckedExceptionsInSignatures:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/com/teju/service/CustomUserServiceImplementation.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/main/java/com/teju/service/CustomUserServiceImplementation.java:28:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/com/teju/service/CustomUserServiceImplementation.java:33:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'authorities' could be declared final
+src/main/java/com/teju/service/UserService.java:8:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/teju/service/UserService.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/teju/service/UserService.java:10:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getuserProfile': the method is declared in an interface type
+src/main/java/com/teju/service/UserServiceImplementations.java:11:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/teju/service/UserServiceImplementations.java:11:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/teju/service/UserServiceImplementations.java:14:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'ur'
+src/main/java/com/teju/service/UserServiceImplementations.java:14:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/teju/service/UserServiceImplementations.java:14:	ShortVariable:	ShortVariable: Avoid variables with short names like ur
+src/main/java/com/teju/service/UserServiceImplementations.java:17:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'jwt' is not assigned and could be declared final
+src/main/java/com/teju/service/UserServiceImplementations.java:18:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'username' could be declared final
+src/main/java/com/teju/service/UserServiceImplementations.java:19:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'u' could be declared final
+src/main/java/com/teju/service/UserServiceImplementations.java:19:	ShortVariable:	ShortVariable: Avoid variables with short names like u
+src/main/java/com/teju/service/UserServiceImplementations.java:19:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'u'
+src/test/java/com/teju/UserApplicationTests.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/teju/UserApplicationTests.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/teju/UserApplicationTests.java:10:	JUnitTestsShouldIncludeAssert:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/teju/UserApplicationTests.java:10:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
